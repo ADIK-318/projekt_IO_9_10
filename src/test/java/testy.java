@@ -1,10 +1,13 @@
-import org.junit.jupiter.api.Test;
+package org.example;
 
-public class testy {
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class testy {
+
     @Test
-    void test1() {
-        int a = 1;
-        int b = 2;
-        assert a == b;
+    void shouldAddTwoNumbers() {
+        int result = Main.add(2, 3);
+        assertEquals(5, result);
     }
 }
