@@ -2,7 +2,8 @@ package org.example;
 
 public class Main {
 
-    public static int add(int a, int b) {
+    public static int dodawanie_LiczbCalkowitych_wTym(int a, int b) {
+        wynikWykonywanych_Obliczen = a + b;
         return a + b;
     }
 
