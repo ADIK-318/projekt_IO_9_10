@@ -1,9 +1,6 @@
 function test() {
-x = 5;
+  const x = 5;
+  console.log(x);
 }
 
 test();
-
-function test() {
-  x = 5;
-}
