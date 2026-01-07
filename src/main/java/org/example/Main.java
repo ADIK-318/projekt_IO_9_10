@@ -2,8 +2,8 @@ package org.example;
 
 public class Main {
 
-    public static int add(int a, int b) {
-        return a + b;
+    public static int add(int liczba_pierwsza_a, int liczba_druga_b) {
+        return liczba_pierwsza_a + liczba_druga_b;
     }
 
     public static void main(String[] args) {
