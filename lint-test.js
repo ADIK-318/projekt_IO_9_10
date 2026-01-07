@@ -1,5 +1,9 @@
 function test() {
-    x = 5;
+x = 5;
 }
 
 test();
+
+function test() {
+  x = 5;
+}
