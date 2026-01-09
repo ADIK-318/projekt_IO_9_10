@@ -6,8 +6,14 @@ public class Main {
         return a + b;
     }
 
+    
+    public static int lengthOfString(String text) {
+        return text.length(); // SonarQube to wykryje
+    }
+
     public static void main(String[] args) {
         System.out.println(add(2, 3));
+        
+        System.out.println(lengthOfString(null));
     }
-    
 }
